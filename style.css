@@ -1,0 +1,90 @@
+body{
+      font-family: 'Zen Loop', cursive;
+      font-size: "100px";
+       margin-right: 5%;
+}
+
+.navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 30px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+
+    .box {
+      float: left;
+      background-color: rgb(218, 229, 231);
+      width: 32%;
+      height: 350px;
+      border-right: 15px white solid;
+      border-top: 10px;
+}
+.box h2, p{
+      padding: 12px;
+}
+.f1{
+  font-family: 'Encode Sans SC', sans-serif;
+      font-size: 40px;
+      
+}
+
+.fa {
+      font-size: 25px;
+    }
+    
+    .checked {
+      color: orange;
+    }
+    
+    /* Three column layout */
+    .side {
+      float: left;
+      width: 15%;
+      margin-top:10px;
+    }
+    
+    .middle {
+      margin-top:10px;
+      float: left;
+      width: 70%;
+    }
+    
+    /* Place text to the right */
+    .right {
+      text-align: right;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+.bar-container {
+      width: 80%;
+      background-color: #f1f1f1;
+      text-align: center;
+      color: white;
+    }
+    
+    /* Individual bars */
+    .bar-5 {width: 82%; height: 18px; background-color: #04AA6D;}
+    .bar-4 {width: 78%; height: 18px; background-color: #2196F3;}
+    .bar-3 {width: 72%; height: 18px; background-color: #00bcd4;}
+    .bar-2 {width: 5%; height: 18px; background-color: #ff9800;}
